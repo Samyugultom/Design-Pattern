@@ -1,2 +1,4 @@
 # Design-Pattern
 Implementasi Factory Pattern
+
+Kode program ini menunjukkan implementasi Factory Pattern karena terdapat sebuah class yang bertanggung jawab untuk membuat objek-objek burger dengan spesifikasi tertentu berdasarkan jenis burger yang diminta. Method createBurger() berfungsi sebagai factory method yang mengembalikan objek BurgerFactory berdasarkan jenis burger yang diminta. Dengan menggunakan factory method, client tidak perlu mengetahui detail implementasi pembuatan objek yang sebenarnya, cukup meminta objek sesuai jenis yang diinginkan melalui method createBurger(). Selain itu, class BurgerFactory juga mengimplementasikan konsep encapsulation dengan menggunakan modifier private pada atribut-atributnya dan memberikan akses ke atribut-atribut tersebut melalui method tampilkanBurger().
